@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Priyadarshini Nadar — Front-End Architect</title>
+<meta name="description" content="Priyadarshini Nadar is a Front-End Architect with 12+ years of experience in JavaScript, React, Vue, TypeScript, front-end architecture, design systems, and team leadership.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="logo">Priyadarshini Nadar<span class="dot">.</span></a>
+
+    <nav class="site-nav" id="site-nav">
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="btn btn-ghost" href="assets/resume.pdf" download>Résumé</a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Front-End Architect</p>
+        <h1 class="hero-title">Priyadarshini architects front-end<br> systems built to scale.</h1>
+        <p class="hero-sub">12+ years building and leading front-end engineering — <strong>JavaScript</strong>, <strong>React</strong>, <strong>Vue</strong>, <strong>TypeScript</strong>, front-end architecture, and design systems — currently <strong>Principal Software Architect</strong> at Vischari Solutions.</p>
+        <div class="hero-actions">
+          <a href="#experience" class="btn btn-primary">View experience</a>
+          <a href="#contact" class="btn btn-outline">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="hero-panel" aria-hidden="true">
+        <div class="code-card">
+          <div class="code-card-bar">
+            <span></span><span></span><span></span>
+            <span class="code-card-name">lead.ts</span>
+          </div>
+          <pre class="code-block"><code><span class="c-kw">const</span> <span class="c-var">lead</span>: <span class="c-var">Engineer</span> = {
+  <span class="c-key">name</span>: <span class="c-str">'Priyadarshini Nadar'</span>,
+  <span class="c-key">role</span>: <span class="c-str">'Front-End Architect'</span>,
+  <span class="c-key">stack</span>: [<span class="c-str">'JavaScript'</span>, <span class="c-str">'React'</span>, <span class="c-str">'Vue'</span>, <span class="c-str">'TypeScript'</span>],
+  <span class="c-key">focus</span>: <span class="c-str">'Architecture &amp; Design Systems'</span>,
+  <span class="c-key">experienceYears</span>: <span class="c-str">'12+'</span>,
+  <span class="c-key">mentoring</span>: <span class="c-bool">true</span>
+};</code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="wrap">
+      <p class="eyebrow">Experience</p>
+      <h2 class="section-title">Where I've led and built</h2>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">Jun 2025 — Present</span>
+          </div>
+          <div class="timeline-body">
+            <h3 class="timeline-role">Principal Software Architect</h3>
+            <p class="timeline-company">Vischari Solutions</p>
+
+            <div class="timeline-projects">
+              <div class="timeline-project">
+                <h4 class="timeline-project-title">Promotions &amp; Loyalty CMS <span class="timeline-project-tag">"CMS 2.0"</span></h4>
+                <p class="timeline-project-desc">Designed and built, end to end, an admin platform for configuring, publishing, and managing promotional campaigns, promo codes, and loyalty-linked offers.</p>
+                <ul class="timeline-points">
+                  <li>Architected an attribute-driven promotions model</li>
+                  <li>Built promo-code management with automated bulk code generation and per-code redemption limits</li>
+                  <li>Implemented loyalty-promotion linking with a draft-to-publish workflow for controlled campaign rollout</li>
+                  <li>Added multi-region replication to clone promotions across regions, eliminating duplicate manual setup</li>
+                  <li>Developed the full admin UI as Filament v5 resources (forms, infolists, tables, relation managers) on Livewire, and led the Laravel 13 / PHP 8.4 upgrade</li>
+                </ul>
+              </div>
+
+              <div class="timeline-project">
+                <h4 class="timeline-project-title">GlowArena <span class="timeline-project-tag">Indoor Gaming Arena Booking Platform</span></h4>
+                <p class="timeline-project-stack">Laravel · Filament 3 + Livewire (admin) · Vue 3 + Inertia (consumer) · MySQL · Laravel Reverb · Razorpay</p>
+                <p class="timeline-project-desc">A two-app platform on a shared database: a staff admin panel (glow-arena-admin) and a public consumer booking app (glow-arena).</p>
+                <ul class="timeline-points">
+                  <li>Built walk-in POS and group/corporate booking flows with time-slot management and 10-minute consumer slot holds that auto-expire</li>
+                  <li>Implemented real-time slot availability across both apps via Laravel Reverb broadcasting</li>
+                  <li>Integrated Razorpay payment links and webhook handling for group-booking payments</li>
+                  <li>Delivered supporting admin modules: revenue/booking reporting, refunds, role-based permissions, and content-config pages</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">Feb 2024 — May 2025</span>
+          </div>
+          <div class="timeline-body">
+            <h3 class="timeline-role">Specialist I</h3>
+            <p class="timeline-company">Mastek</p>
+            <ul class="timeline-points">
+              <li>Provided technical guidance to the team, supporting problem-solving and decision-making</li>
+              <li>Enforced coding standards and best practices for high-quality, maintainable code</li>
+              <li>Conducted code reviews and promoted continuous improvement</li>
+              <li>Collaborated with cross-functional teams and product managers on project requirements</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">Mar 2023 — Jan 2024</span>
+          </div>
+          <div class="timeline-body">
+            <h3 class="timeline-role">Engineering Manager, UIKits</h3>
+            <p class="timeline-company">Inscripts (CometChat)</p>
+            <ul class="timeline-points">
+              <li>Released UIKit architecture across web and mobile platforms</li>
+              <li>Mentored and coached engineers to help them reach their full potential</li>
+              <li>Built a full-stack interactive demo app with React UIKit for the marketing and sales teams</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">Nov 2021 — Mar 2023</span>
+          </div>
+          <div class="timeline-body">
+            <h3 class="timeline-role">Associate Engineering Manager, UIKits</h3>
+            <p class="timeline-company">Inscripts (CometChat)</p>
+            <ul class="timeline-points">
+              <li>Architected UIKits as standalone, decoupled, modular components for better scalability and developer control</li>
+              <li>Maintained feature parity across platforms</li>
+              <li>Led and mentored a team of 5+ front-end developers</li>
+              <li>Conducted regular performance reviews and identified growth opportunities</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">May 2020 — Nov 2021</span>
+          </div>
+          <div class="timeline-body">
+            <h3 class="timeline-role">Senior Lead Engineer</h3>
+            <p class="timeline-company">Inscripts (CometChat)</p>
+            <ul class="timeline-points">
+              <li>Built the React UIKit from the ground up</li>
+              <li>Developed a no-code chat widget using React UIKit</li>
+              <li>Optimized UIKit performance, cutting page load times under heavy message volume</li>
+              <li>Ensured cross-browser compatibility for a consistent experience</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item timeline-item-condensed">
+          <div class="timeline-meta">
+            <span class="timeline-date">2009 — 2018</span>
+          </div>
+          <div class="timeline-body">
+            <h3 class="timeline-role">Earlier roles</h3>
+            <ul class="timeline-points">
+              <li>Technical Lead, Global Eagle (Jun 2017 – Dec 2018)</li>
+              <li>Sr. Systems Engineer, Global Eagle (Jul 2015 – Jun 2017)</li>
+              <li>Systems Engineer, Western Outdoor Interactive, a GEE company (Jul 2012 – Jul 2015)</li>
+              <li>Programmer Analyst, Intelgain Technologies (Aug 2009 – Mar 2011)</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS / RESUME -->
+  <section class="section section-alt" id="skills">
+    <div class="wrap">
+      <p class="eyebrow">Skills</p>
+      <h2 class="section-title">What I work with</h2>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3 class="skill-group-title">Front-End</h3>
+          <ul class="skill-list">
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Vue</li>
+            <li>TypeScript</li>
+            <li>Front-End Architecture</li>
+            <li>Design Systems</li>
+            <li>UI/UX &amp; Responsive Design</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3 class="skill-group-title">Leadership</h3>
+          <ul class="skill-list">
+            <li>Technical Leadership</li>
+            <li>Mentoring</li>
+            <li>Team Support</li>
+            <li>Code Review</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="resume-cta">
+        <p>Want the full breakdown of my experience?</p>
+        <a href="assets/resume.pdf" download class="btn btn-primary">Download résumé</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="wrap about-grid">
+      <div>
+        <p class="eyebrow">About</p>
+        <h2 class="section-title">A little more about me</h2>
+      </div>
+      <div class="about-copy">
+        <p>I lead front-end engineering with a focus on JavaScript, React, Vue, TypeScript, and design systems that hold up as products grow. Over 12+ years, that's meant taking web projects from pitch to delivery alongside product owners, UX designers, testers, and other engineers — and making sure accessibility, performance, and code quality aren't afterthoughts.</p>
+        <p>I also mentor and coach the engineers I work with, aiming to build a culture where good practices stick and people keep learning. Based in Navi Mumbai, I hold a BE in Information Technology from AC Patil College of Engineering (Mumbai University).</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-dark" id="contact">
+    <div class="wrap contact-grid">
+      <div>
+        <p class="eyebrow eyebrow-light">Contact</p>
+        <h2 class="section-title section-title-light">Let's build something.</h2>
+        <p class="contact-sub">Open to new projects and roles — reach out and I'll get back to you.</p>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:priyadarshinin.tech@gmail.com" class="contact-link">
+          <span class="contact-label">Email</span>
+          <span class="contact-value">priyadarshinin.tech@gmail.com</span>
+        </a>
+        <a href="https://github.com/walkrantrolls" class="contact-link" target="_blank" rel="noopener">
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">github.com/walkrantrolls</span>
+        </a>
+        <a href="https://www.linkedin.com/in/priyadarshininadar/" class="contact-link" target="_blank" rel="noopener">
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">linkedin.com/in/priyadarshininadar</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p class="footer-year">&copy; <span id="year"></span> Priyadarshini Nadar. Built with HTML, CSS &amp; JS.</p>
+  </div>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
