@@ -213,6 +213,8 @@ img { max-width: 100%; display: block; }
   color: var(--accent);
 }
 .site-nav .nav-dropdown:not([open]) .nav-submenu { display: none; }
+.site-nav .nav-dropdown:hover .nav-submenu,
+.site-nav .nav-dropdown:focus-within .nav-submenu { display: block; }
 
 .header-actions {
   display: flex;
